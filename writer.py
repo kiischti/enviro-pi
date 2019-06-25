@@ -7,7 +7,8 @@ import time
 import datetime
 from sense_hat import SenseHat
 
-SLEEP = 300
+# take a measurement every 60 seconds
+SLEEP = 60
 
 sense = SenseHat()
 sense.clear()

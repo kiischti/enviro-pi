@@ -3,12 +3,6 @@ Enviro-Pi
 
 I forked this project from the original author to wokr a bit further on the data presentation. The original project can be fount at  https://github.com/odlevakp/enviro-pi
 
-I wanted something to monitor my room temperature and humidity, so I wrote
-this simple web-based weather station for Raspberry Pi and SenseHat.
-
-Very "raw", fixes and PRs welcome!
-
-
 ### Hardware requirements
 
 * Raspberry Pi 3

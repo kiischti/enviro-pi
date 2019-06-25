@@ -1,6 +1,7 @@
 Enviro-Pi
 =========
 
+I forked this project from the original author to wokr a bit further on the data presentation. The original project can be fount at  https://github.com/odlevakp/enviro-pi
 
 I wanted something to monitor my room temperature and humidity, so I wrote
 this simple web-based weather station for Raspberry Pi and SenseHat.
@@ -12,24 +13,6 @@ Very "raw", fixes and PRs welcome!
 
 * Raspberry Pi 3
 * SenseHat
-* [GPIO Ribbon Cable](https://thepihut.com/products/gpio-ribbon-cable-for-raspberry-pi-40-pins) (optional)
-
-If you put your SenseHat on top of your Pi, the temperature readings might be
-inaccurate due to the heat coming from it - that's what the optional ribbon cable is for:
-
-![SenseHat Ribbon Cable](http://files.phisolutions.eu/enviro-pi-hw1.jpg "SenseHat with Ribbon Cable")
-
-To use your SenseHat with a ribbon cable, you can remove the GPIO header on the bottom of the hat. It won't go easy the first time, just remember, you are removing the bottom one ;-)
-
-The application was inspired by following resources:
-
-* [Sense-hat API documentation](https://pythonhosted.org/sense-hat/)
-* [w3schools](https://pythonhosted.org/sense-hat/) - for HTML menus, templates and CSS.
-* [ChartJS](http://www.chartjs.org/docs) - Awesome charts used to display environment readings.
-* [Flask](http://flask.pocoo.org/) - Web server used to display data, inspired by [this](https://github.com/pallets/flask/tree/master/examples/flaskr) blog example.
-* [Python sqlite tutorial](http://zetcode.com/db/sqlitepythontutorial/)
-
-
 
 ### Installation and Software requirements
 
